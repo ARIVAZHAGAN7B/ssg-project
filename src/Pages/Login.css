@@ -1,0 +1,77 @@
+.login-page {
+    background: rgba(255, 131, 131, 0.2);
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+}
+
+.main-div {
+    background: url("../assets/register-bg.jpg");
+    height: 87vh;  
+    background-size: cover; 
+    background-position: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative; 
+}
+
+.login-input-email, .login-input-password {
+    margin: 15px 0; 
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    padding: 10px 5px; 
+}
+
+.login-input-email:focus, .login-input-password:focus {
+    border-bottom: 3px solid orangered;
+}
+
+.login-input-email::placeholder, .login-input-password::placeholder {
+    color: white;
+}
+
+.submit-btn{
+    width: 300px;
+    padding: 10px;
+    margin-top: 50px;
+    color: black;
+    cursor: pointer;
+    background-color: skyblue;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.submit-btn:hover{
+    transform: scale(1.05);
+    background-color: blue;
+    color: white;
+}
+
+.forgot-password {
+    margin-top: 200px;
+    margin-left:-250px;
+    color: blue;
+    position: absolute;
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

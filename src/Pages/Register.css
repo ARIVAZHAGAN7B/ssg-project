@@ -1,0 +1,56 @@
+.register-page {
+    background: rgba(255, 131, 131, 0.2);
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+}
+.main-div-register{
+    background: url("../assets/register-bg.jpg");
+    height: 87vh;  
+    background-size: cover; 
+    background-position: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.register-input-email, .register-input-password,.register-input-name {
+    margin: 15px 0; 
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    padding: 10px 5px; 
+}
+
+.register-input-email:focus, .register-input-password:focus,.register-input-name:focus {
+    border-bottom: 3px solid orangered;
+}
+
+.register-input-email::placeholder, .register-input-password::placeholder, .register-input-name::placeholder {
+    color: white;
+}
+
+.login-register{
+    margin-top: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+.login-register:hover{
+    color: darkblue;
+    text-decoration: underline;
+}

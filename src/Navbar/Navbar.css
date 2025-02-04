@@ -1,12 +1,13 @@
 .navbar {
     height: 70px;
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
     padding: 0 20px;
     border-radius: 3px;
-    margin-bottom: 50px; 
+    margin-bottom: 10px; 
+    background-color: lightblue;
+    border-radius: 5px;
 }
 
 
@@ -63,18 +64,23 @@
     background-color: aqua;
     padding: 8px 15px;
     border-radius: 5px;
-    font-family: sans-serif;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
+.link-login{
+    text-decoration: none;
+    color: inherit; 
+}
+
 .login{
     background-color: #FFD700;
     padding: 8px 15px;
     margin: 10px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -88,7 +94,7 @@
 .nav-list li.active {
     background-color: white;
     color: black;
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 8px;
     box-shadow: 0px 2px 5px rgba(12, 7, 7, 0.2);
 }
@@ -103,7 +109,7 @@
     margin-left: 50px; 
     border-radius: 10px;
     height: 35px;
-    width: 280px;
+    width: 200px;
     background-color: white;
     display: flex;
     align-items: center;

@@ -37,14 +37,13 @@ const Navbar = () => {
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
             </div>
-            <div className="register">
-                Register
-            </div>
-            <div className="login">
-                Login
-            </div>
-
             <ul className="nav-list">
+                <li className="register">
+                <Link to="/register" className="link-login">Register</Link>
+                </li>
+                <li className="login">
+                <Link to="/login" className="link-login">Login</Link>
+                </li>
                 {navItems.map(({ path, label, icon }) => (
                     <li key={path} className={location.pathname === path ? "active" : ""}>
                         <Link to={path} className="nav-link">

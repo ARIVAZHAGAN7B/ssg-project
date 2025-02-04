@@ -1,11 +1,85 @@
-.home-backgroundimage {
-    background-image: url("../assets/background.webp");
-    height: 100vh;  
-    background-size: cover; 
+.main-div-home {
+    background: url("../assets/background.webp");
+    height: 87vh;
+    background-size: cover;
     background-position: center;
-    width: 99%;
-    margin: 6px;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 255, 0.3);
-  }
-  
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-div-home::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.home-page {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #FFD700;
+}
+
+.content-section, .benefits-section, .cta-section {
+    text-align: center;
+    padding: 30px 15%;
+}
+
+.sub-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #FF5733;
+}
+
+.features-list, .benefits-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li, .benefits-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    background: #FF5733;
+    color: white;
+    padding: 40px 15%;
+    border-radius: 8px;
+}
+
+.cta-heading {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background: #FFD700;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
