@@ -1,23 +1,22 @@
-/* Navbar Container */
 .navbar {
     height: 70px;
     margin: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between; 
     padding: 0 20px;
     border-radius: 3px;
-    margin-bottom: 50px; /* Reduce excessive spacing */
+    margin-bottom: 50px; 
 }
 
-/* Logo Styling */
+
 .navbar-logo {
     border-radius: 7px;
     height: 60px;
     margin-right: 20px;
 }
 
-/* App Name Styling */
+
 .app-name-first, .app-name-second {
     font-size: 50px;
     font-weight: bold;
@@ -54,7 +53,7 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
-    color: lightgray;
+    color: gray;
     transition: color 0.3s ease-in-out;
 }
 
@@ -62,6 +61,7 @@
 
 .nav-icon {
     height: 20px;
+    margin-right: 5px;
     border: none;
 }
 
