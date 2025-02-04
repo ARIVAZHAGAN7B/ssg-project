@@ -37,6 +37,12 @@ const Navbar = () => {
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
             </div>
+            <div className="register">
+                Register
+            </div>
+            <div className="login">
+                Login
+            </div>
 
             <ul className="nav-list">
                 {navItems.map(({ path, label, icon }) => (

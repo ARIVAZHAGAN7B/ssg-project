@@ -1,0 +1,11 @@
+.home-backgroundimage {
+    background-image: url("../assets/background.webp");
+    height: 100vh;  
+    background-size: cover; 
+    background-position: center;
+    width: 99%;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.3);
+  }
+  

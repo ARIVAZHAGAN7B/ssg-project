@@ -57,7 +57,27 @@
     transition: color 0.3s ease-in-out;
 }
 
-
+.register{
+    margin: 10px;
+    margin-right: 0px;
+    background-color: aqua;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login{
+    background-color: #FFD700;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .nav-icon {
     height: 20px;
