@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundImage from "../assets/background.webp";  // Corrected import
+import BackgroundImage from "../assets/background.webp";  // Corrected import   
 
 const Home = () => {
   return (
